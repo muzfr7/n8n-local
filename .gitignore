@@ -1,0 +1,18 @@
+# Environment variables (contains sensitive data)
+.env
+.env.local
+.env.production
+
+# Docker volumes
+volumes/
+
+# Local files directory (created automatically by Docker)
+local-files/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
